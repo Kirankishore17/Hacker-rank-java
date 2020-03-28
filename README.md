@@ -22,3 +22,14 @@ Note: If array doesn't have 1's and having only 0's then it has to return -1 val
 Input Format: 1st line size of array n next size line element of array
 
 Output Format: Integer
+
+### 3.casket combinations
+
+Maria has forgotten the combination to the casket. The casket contains this month's salaries.To open the casket, N boxes and N balls are used. The casket has N boxes that numbered from 1 to N which are unique. Each box can contain only one ball. Now, the box i contains one ball that numbered i, and the casket is locked.The only things which Maria remember for unlocking the casket are the followings:
+She must put every ball into some box.Let the box i contains the ball Ai. When the casket is opened the number of divisors of i equals to the number of divisors of Ai for all i from 1 to N.
+How many combinations which satisfy above conditions should she check? The number of combinations can be very large, so you should print this number modulo 5000095 *105+9).
+
+Input Format:
+an integer N cases. Then T test cases follow. The only line of each test case contains The first line contains an integer T, the number of test
+
+Output Format: Output should print the number of combinations modulo 500009
