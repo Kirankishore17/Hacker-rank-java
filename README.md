@@ -23,7 +23,7 @@ Input Format: 1st line size of array n next size line element of array
 
 Output Format: Integer
 
-### 3.casket combinations
+### 3.Casket combinations
 
 Maria has forgotten the combination to the casket. The casket contains this month's salaries.To open the casket, N boxes and N balls are used. The casket has N boxes that numbered from 1 to N which are unique. Each box can contain only one ball. Now, the box i contains one ball that numbered i, and the casket is locked.The only things which Maria remember for unlocking the casket are the followings:
 She must put every ball into some box.Let the box i contains the ball Ai. When the casket is opened the number of divisors of i equals to the number of divisors of Ai for all i from 1 to N.
@@ -33,3 +33,52 @@ Input Format:
 an integer N cases. Then T test cases follow. The only line of each test case contains The first line contains an integer T, the number of test
 
 Output Format: Output should print the number of combinations modulo 500009
+
+### 4.Repeating element
+
+Find the first repeating element in an array of integers Given an array of integers 'A', find the first repeating element in it. We need to find the element that occurs more than once and whose index of first occurrence is smallest.
+
+Input Format:
+First line of the input will be the length of the array followed by the array elements.
+
+Output Format:
+Return the first repeating element. If there are no repeating elements return 0.
+
+Constraints:
+length of A <= 100
+
+Sample Test Case:
+Input:
+7
+10
+5
+3
+4
+3
+5
+6
+
+Output:
+5
+
+### 5.Smallest positive integer.
+
+Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.Given A = [1,2,3], the function should return 4.
+
+Input Format: First line of the input will be the length of the array followed by the array elements.
+
+Output Format : Return the smallest positive integer that does not occur in A.
+
+Constraints:
+N is an integer within the range [ 1100000 ]; each element of array A is an integer within the range [-1,000,000.1,000,000].
+
+Sample Test Case:
+Input:
+2
+-1
+-3
+
+Output:
+1
+
